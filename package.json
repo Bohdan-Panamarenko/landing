@@ -1,0 +1,27 @@
+{
+  "name": "WEB-project",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.8.5",
+    "browser-sync": "^2.26.10",
+    "css-mqpacker": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-csscomb": "^3.1.0",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uncss": "^1.0.6"
+  },
+  "browserslist": [
+    "last 4 versions",
+    "ie >= 10",
+    "not dead",
+    "not OperaMini all"
+  ]
+}

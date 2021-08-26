@@ -1,0 +1,20 @@
+{
+    "leading-zero": true,
+    "quotes": "single",
+    "sort-order":  ["$variable", "$include", "$extend", "$import"],
+    "sort-order-fallback": "abc",
+    "space-after-combinator": 1,
+    "space-after-colon": 1,
+    "space-after-selector-delimiter": 1,
+    "lines-between-rulesets": 1,
+    "space-before-combinator": 1,
+    "space-before-closing-brace": "\n",
+    "space-after-opening-brace": "\n",
+    "space-before-opening-brace": 1,
+    "space-between-declarations": "\n",
+    "strip-spaces": false,
+    "block-indent": 4,
+    "color-case": "lower",
+    "color-shorthand": true,
+    "element-case": "lower"
+}
