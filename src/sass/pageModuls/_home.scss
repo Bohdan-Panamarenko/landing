@@ -1,0 +1,50 @@
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 100px);
+    min-height: 700px;
+
+    h1 {
+        font-size: 36px;
+        line-height: 60px;
+        max-width: 611px;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+#details {
+    line-height: 80px;
+    font-size: 28px;
+    letter-spacing: 0.05em;
+    position: relative;
+
+    &:before, &:after {
+        content: url("../img/Arrow down.svg");
+        position: absolute;
+        left: -40px;
+    }
+
+    &:after {
+        left: auto;
+        right: -40px;
+    }
+}
+
+@media screen and (max-width: $mobileMenu) {
+    #home {
+        height: calc(100vh - 62px);
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width: $mediaPhones) {
+    #home {
+
+        img {
+            height: 300px;
+        }
+    }
+}

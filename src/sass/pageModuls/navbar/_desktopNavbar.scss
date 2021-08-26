@@ -1,0 +1,44 @@
+header {
+    position: relative;
+    height: 100px;
+    max-width: 1920px;
+}
+
+nav {
+    position: absolute;
+    top: 30px;
+    right: 0;
+
+    .content {
+        display: flex;
+        @include horizontalGap(50px);
+    }
+
+    a {
+        width: 160px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 1rem;
+        letter-spacing: 0.05em;
+        border-radius: 20px;
+        display: block;
+        text-align: center;
+        
+        &:hover {
+            background-color: #F3F4F6;
+        }
+    }
+}
+
+#logo {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.mobile-navbar-button, .mobile-navbar-button-container {
+    display: none;
+}
+
+
+

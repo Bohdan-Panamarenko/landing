@@ -1,0 +1,78 @@
+/*-- Импорт шрифтов --*/
+@import 'devModuls/fonts';
+
+/*-- Импорт переменных  --*/
+@import 'devModuls/variables';
+
+/*-- Импорт миксинов --*/
+@import 'devModuls/mixins';
+
+/*-- Импорт стилей cегментов сайта || Імпорт стилів сегментів сайту--*/
+@import 'pageModuls/navbar/desktopNavbar';
+
+@import 'pageModuls/navbar/mobileNavbar';
+
+@import 'pageModuls/q&a';
+
+@import 'pageModuls/home';
+
+@import 'pageModuls/partners';
+
+@import 'pageModuls/contact-us';
+
+@import 'pageModuls/tariffs';
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s ease-out;
+}
+
+header {
+    margin: 0 auto;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.blue-button {
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    width: 200px;
+    border-radius: 20px;
+    background-color: $blue;
+    font-weight: 700;
+    &:hover {
+        background-color: $lightBlue;
+    }
+}
+
+.sub-heading {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+
+
+

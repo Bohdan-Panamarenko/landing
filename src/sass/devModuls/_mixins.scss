@@ -1,0 +1,33 @@
+@mixin verticalGap($property--1) {
+    & > * {
+        margin-bottom: $property--1;
+    }
+    & > *:last-child {
+        margin-bottom: 0;
+    }
+}
+@mixin horizontalGap($property--2) {
+    & > * {
+        margin-right: $property--2;
+    }
+    & > *:last-child {
+        margin-right: 0;
+    }
+}
+
+@mixin size($property--3) {
+    width: $property--3;
+    height: $property--3;
+}
+
+@mixin objectCover {
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+}
+
+@mixin objectFixLeft {
+    top: 0;
+    left: 0;
+}

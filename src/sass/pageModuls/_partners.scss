@@ -1,0 +1,67 @@
+#partners {
+    padding: 40px 0;
+
+    .sub-heading {
+        margin-bottom: 40px;
+    }
+
+    .content {
+        max-width: 1070px;
+        padding-top: 30px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+.partner {
+    width: 435px;
+    display: flex;
+    margin-bottom: 30px;
+
+    img {
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
+        margin-right: 60px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        letter-spacing: 0.05em;
+    }
+
+    h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: $mediaPhones) {
+    .partner {
+        width: 350px;
+        img {
+            margin-right: 40px;
+        }
+    }
+    #partners {
+        padding-bottom: 0;
+        .sub-heading {
+            margin-bottom: 0;
+        }
+    }
+}
+
+
