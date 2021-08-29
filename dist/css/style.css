@@ -84,7 +84,7 @@ nav {
   letter-spacing: 0.05em;
   position: relative; }
   #details:before, #details:after {
-    content: url("img/Arrow down.svg");
+    content: url("dist/img/Arrow down.svg");
     position: absolute;
     left: -40px; }
   #details:after {
@@ -179,7 +179,7 @@ nav {
       top: 10px;
       width: 16px;
       height: 20px;
-      background-image: url("img/Arrow down.svg");
+      background-image: url("dist/img/Arrow down.svg");
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
